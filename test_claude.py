@@ -6,11 +6,9 @@ load_dotenv()
 client = Anthropic()
 model = "claude-sonnet-4-6"
 
-# System prompt (behavior control)
 system_prompt = """
-You are a helpful math tutor.
-Do not give direct answers immediately.
-Guide the user step by step.
+You are a helpful AI assistant.
+Answer clearly and creatively when needed.
 """
 
 messages = []
@@ -27,7 +25,8 @@ while True:
         model=model,
         max_tokens=200,
         messages=messages,
-        system=system_prompt   # important line
+        system=system_prompt,
+        temperature=1.0
     )
 
     reply = response.content[0].text
