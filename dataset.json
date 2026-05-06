@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Write a Python function that lists all S3 buckets in an AWS account using boto3 and returns their names as a list of strings",
+    "expected_type": "Python"
+  },
+  {
+    "task": "Create a JSON configuration template for an AWS Lambda function deployment including function name, runtime, memory size, timeout, environment variables, and IAM role ARN",
+    "expected_type": "JSON"
+  },
+  {
+    "task": "Write a regular expression that validates an AWS S3 bucket name according to AWS naming rules: 3-63 characters, lowercase letters, numbers, and hyphens only, must start and end with a letter or number",
+    "expected_type": "Regex"
+  }
+]
