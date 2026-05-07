@@ -1,0 +1,26 @@
+Text Editor Tool Notes
+
+Claude built-in editor tool can:
+- read files
+- edit files
+- create files
+- replace text
+- insert code
+- undo edits
+
+Important:
+- Claude already knows schema internally
+- Developer provides implementation
+
+Tool stub example:
+
+{
+    "type": "text_editor_20250124",
+    "name": "str_replace_editor"
+}
+
+Used in:
+- AI coding agents
+- VS Code AI assistants
+- Cursor AI
+- Claude Code
