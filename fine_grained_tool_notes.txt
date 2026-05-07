@@ -1,0 +1,17 @@
+Fine-Grained Tool Calling Notes
+
+Normal tool streaming:
+- API buffers tool JSON
+- Sends chunks after validation
+- Safer for most apps
+
+Fine-grained tool calling:
+- Sends chunks immediately
+- Faster user experience
+- JSON validation disabled
+- Developer must handle invalid JSON
+
+Use when:
+- tool input is long
+- real-time progress matters
+- app can handle partial/invalid JSON
