@@ -1,0 +1,21 @@
+Weak Prompt:
+Tell me about AWS
+
+Improved Prompt:
+Explain AWS core services for beginners with examples.
+
+--------------------------------------------------
+
+Weak Prompt:
+Write Python code
+
+Improved Prompt:
+Write a Python function that uploads a file to AWS S3 using boto3.
+
+--------------------------------------------------
+
+Weak Prompt:
+What food should I eat?
+
+Improved Prompt:
+Generate a high-protein vegetarian meal plan for muscle gain with calorie estimates.
