@@ -1,0 +1,24 @@
+RAG = Retrieval Augmented Generation
+
+Purpose:
+- work with large documents
+- retrieve only relevant information
+
+RAG workflow:
+1. Split documents into chunks
+2. User asks question
+3. Search relevant chunks
+4. Send relevant chunks to Claude
+5. Claude generates answer
+
+Benefits:
+- faster
+- cheaper
+- scalable
+- better accuracy
+
+Used in:
+- AI PDF chat
+- enterprise AI
+- document Q&A
+- AI search systems
