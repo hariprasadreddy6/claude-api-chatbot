@@ -1,0 +1,11 @@
+UserID,SubscriptionTier,MonthlyHoursWatched,Churned
+1,Premium,120,No
+2,Basic,25,Yes
+3,Standard,80,No
+4,Basic,15,Yes
+5,Premium,140,No
+6,Standard,45,Yes
+7,Premium,160,No
+8,Basic,10,Yes
+9,Standard,70,No
+10,Basic,20,Yes
